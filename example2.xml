@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students >
+    <student>
+        <id>1</id>
+        <name>John Doe</name>
+        <age>20</age>
+        <email>john.doe@example.com</email>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <age>22</age>
+        <email>jane.smith@example.com</email>
+    </student>
+    <student>
+        <id>2</id>
+        <name>東尼史塔克aks末日博士</name>
+        <age>五十歲</age>
+        <email>jane.smith@example.com</email>
+    </student>
+</students>

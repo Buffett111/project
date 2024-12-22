@@ -1,0 +1,160 @@
+/* Reset 基本樣式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #f38022;
+    background-color: #bcf0eb;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* XML 原始碼樣式 */
+  pre {
+    font-size: 0.8rem; /* 字體大小 */
+    line-height: 1.4; /* 行高 */
+    background: #f8f9fa; /* 淺灰背景 */
+    color: #333; /* 深灰文字 */
+    border: 1px solid #ccc; /* 邊框 */
+    padding: 10px; /* 內邊距 */
+    white-space: pre-wrap; /* 保持文字換行 */
+    margin-top: 1rem; /* 與上方內容的間距 */
+    border-radius: 5px; /* 圓角 */
+    overflow: visible; /* 允許內容擴展 */
+    max-height: none; /* 取消高度限制 */
+  }
+
+
+  /* 網頁頭部樣式 */
+  header {
+    background: #325fd2;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+  }
+
+  
+  /* 導覽列樣式 */
+  nav {
+    background: #333;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav a {
+    color: #e6e6ea; /* Ensure sufficient color contrast */
+    text-decoration: none;
+    margin-right: 1em;
+    font-size: 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 主要內容區 */
+  main {
+    padding: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  main h2 {
+    margin-bottom: 1rem;
+    color: #4CAF50;
+  }
+  
+  main p, main ul, main table {
+    margin-bottom: 1rem;
+  }
+  
+  /* 表格樣式 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+  }
+  
+  table th {
+    background: #4CAF50;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  /* 圖形與Canvas樣式 */
+  svg, canvas {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 圖片樣式 */
+  img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+  
+  @media (min-width: 601px) {
+    img {
+      width: 35%;
+      height: auto;
+    }
+  }
+  
+  /* 底部樣式 */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  
+  /* 響應式設計 */
+  @media (max-width: 768px) {
+    body {
+      font-size: 0.9rem;
+    }
+  
+    nav a {
+      margin: 0 0.5rem;
+      font-size: 0.9rem;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+  }

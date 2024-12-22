@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Viewer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>XML Viewer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">主畫面</a></li>
+                <li><a href="editbook.html">書籍管理系統</a></li>
+                <li><a href="#" onclick="exitSystem()">結束系統</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form id="uploadForm">
+            <label for="xmlFile">上傳 XML 文件: </label>
+            <input type="file" id="xmlFile" accept=".xml" required>
+            <label for="xsdFile">上傳 XSD 文件: </label>
+            <input type="file" id="xsdFile" accept=".xsd">
+            <button type="button" onclick="validateXML()">驗證 XML</button>
+            <button type="button" onclick="loadAndRenderXML()">加載並渲染</button>
+        </form>
+        <div>
+            <iframe id="data-view" width="100%" height="500px"></iframe>
+        </div>
+        <div>
+            <h2>XML 原始碼</h2>
+            <pre id="xml-source"></pre>
+        </div>
+    </div>
+    <script>
+        function exitSystem() {
+            alert("系統即將結束！");
+            window.close();
+            exitSystem();
+        }
+    </script>
+    <script src="scripts/viewer.js"></script>
+</body>
+</html>

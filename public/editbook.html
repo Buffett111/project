@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>書籍管理系統</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>書籍管理系統</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">主畫面</a></li>
+                <li><a href="editbook.html">書籍管理系統</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form id="bookForm">
+            <label>書本編號: <input type="text" id="bookId" required></label>
+            <label>書名: <input type="text" id="bookTitle" required></label>
+            <label>類別: <input type="text" id="bookCategory" required></label>
+            <label>作者: <input type="text" id="bookAuthor" required></label>
+            <label>價格: <input type="number" id="bookPrice" required></label>
+            <button type="button" onclick="addOrUpdateBook()">新增/修改書籍</button>
+            <button type="button" onclick="deleteBook()">刪除書籍</button>
+            <button type="button" onclick="getBook()">查詢書籍</button>
+        </form>
+        <div>
+            <h2>書籍列表</h2>
+            <table id="bookTable">
+                <thead>
+                    <tr>
+                        <th>書本編號</th>
+                        <th>書名</th>
+                        <th>類別</th>
+                        <th>作者</th>
+                        <th>價格</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div>
+            <button onclick="importXML()">匯入 XML</button>
+            <button onclick="exportXML()">匯出 XML</button>
+            <button onclick="exportQueryResults()">匯出查詢結果</button>
+            <br><br>
+            <table id="bookTable2" border="1">
+                <thead>
+                    <tr>
+                        <th>書籍編號</th>
+                        <th>書名</th>
+                        <th>類別</th>
+                        <th>作者</th>
+                        <th>價錢</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Query results will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="scripts/editbook.js"></script>
+</body>
+</html>

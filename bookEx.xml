@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book id="1">
+        <title>Learn XML</title>
+        <category>Programming</category>
+        <author>John Doe</author>
+        <price>299</price>
+    </book>
+    <book id="2">
+        <title>Mastering Python</title>
+        <category>Programming</category>
+        <author>Jane Smith</author>
+        <price>399</price>
+    </book>
+    <book id="3">
+        <title>Introduction to Java</title>
+        <category>Programming</category>
+        <author>Robert Brown</author>
+        <price>499</price>
+    </book>
+    <book id="4">
+        <title>Web Development Basics</title>
+        <category>Web Development</category>
+        <author>Emily White</author>
+        <price>299</price>
+    </book>
+    <book id="5">
+        <title>HTML &amp; CSS Guide</title>
+        <category>Web Development</category>
+        <author>Michael Green</author>
+        <price>199</price>
+    </book>
+    <book id="6">
+        <title>JavaScript Essentials</title>
+        <category>Web Development</category>
+        <author>Anna Black</author>
+        <price>399</price>
+    </book>
+    <book id="7">
+        <title>Machine Learning 101</title>
+        <category>AI &amp; ML</category>
+        <author>Chris Blue</author>
+        <price>599</price>
+    </book>
+    <book id="8">
+        <title>Data Science for Beginners</title>
+        <category>AI &amp; ML</category>
+        <author>Patricia Red</author>
+        <price>499</price>
+    </book>
+    <book id="9">
+        <title>Big Data Analytics</title>
+        <category>AI &amp; ML</category>
+        <author>Andrew Grey</author>
+        <price>699</price>
+    </book>
+    <book id="10">
+        <title>Cloud Computing Fundamentals</title>
+        <category>Cloud</category>
+        <author>Paul Silver</author>
+        <price>299</price>
+    </book>
+    <book id="11">
+        <title>DevOps Essentials</title>
+        <category>Cloud</category>
+        <author>Susan Gold</author>
+        <price>399</price>
+    </book>
+    <book id="12">
+        <title>Cybersecurity Basics</title>
+        <category>Security</category>
+        <author>James Copper</author>
+        <price>599</price>
+    </book>
+    <book id="13">
+        <title>Penetration Testing</title>
+        <category>Security</category>
+        <author>Linda Violet</author>
+        <price>699</price>
+    </book>
+    <book id="14">
+        <title>Blockchain Explained</title>
+        <category>Technology</category>
+        <author>William Brown</author>
+        <price>499</price>
+    </book>
+    <book id="15">
+        <title>AI Ethics</title>
+        <category>AI &amp; ML</category>
+        <author>David Black</author>
+        <price>399</price>
+    </book>
+    <book id="16">
+        <title>Networking Basics</title>
+        <category>Networking</category>
+        <author>Daniel White</author>
+        <price>299</price>
+    </book>
+    <book id="17">
+        <title>Wireless Communication</title>
+        <category>Networking</category>
+        <author>Nancy Blue</author>
+        <price>399</price>
+    </book>
+    <book id="18">
+        <title>System Design Principles</title>
+        <category>Engineering</category>
+        <author>Chris Green</author>
+        <price>699</price>
+    </book>
+    <book id="19">
+        <title>Introduction to Robotics</title>
+        <category>Engineering</category>
+        <author>Jessica Pink</author>
+        <price>799</price>
+    </book>
+    <book id="20">
+        <title>Database Design</title>
+        <category>Database</category>
+        <author>John Yellow</author>
+        <price>499</price>
+    </book>
+</books>
